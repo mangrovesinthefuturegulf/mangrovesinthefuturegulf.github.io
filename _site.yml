@@ -4,8 +4,4 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
-    - text: "Results"
-      href: Results.html
       
