@@ -4,20 +4,7 @@ title: "Results"
 
 Results will be compiled here.
 
-```{r getting set up, echo = FALSE}
+```{r ShorelinebySiteImage, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Fig. 1. Shoreline characteristics by study site.', out.width='100%', fig.pos='H'}
 library(tidyverse)
-library(readxl)
-
-file_path <- './20221208.xlsx'
-data <- read_excel(path = file_path)
-```
-
-### **Exploring the Data**
-
-Here's a quick look at the read-in data's first 20 columns, including their label, class, and some data points.
-
-```{r data first look}
-data %>% # Using read-in data
-  .[,1:20] %>% # Subset the first 20 columns
-  dplyr::glimpse() # Using the glimpse() function in dplyr
+knitr::include_graphics("ShorelinebySite.pdf")
 ```
