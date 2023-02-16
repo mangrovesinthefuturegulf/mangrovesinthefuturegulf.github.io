@@ -6,5 +6,5 @@ Results will be compiled here.
 
 ```{r ShorelinebySiteImage, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Fig. 1. Shoreline characteristics by study site.', out.width='100%', fig.pos='H'}
 library(tidyverse)
-knitr::include_graphics("ShorelinebySite.pdf")
+knitr::include_graphics("ShorelinebySite.jpeg")
 ```
