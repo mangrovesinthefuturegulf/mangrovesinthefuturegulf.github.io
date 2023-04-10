@@ -6,4 +6,6 @@ navbar:
       href: index.html
     - text: "Results"
       href: results.html
+    - text: "Contact"
+      href: contact.html
       
